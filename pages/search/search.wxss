@@ -1,0 +1,64 @@
+/* pages/search/search.wxss */
+.searchtain{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding:0 10px;
+}
+.navigator {
+  width: 100%;
+  background-color: #A88462;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.navigator .weui-tabbar__icon{
+  width: 32px;
+  height:32px;
+}
+.navigator .weui-tabbar__label{
+  color: #fff;
+  font-size: 14px;
+}
+.searchtain-cnt{
+  width: 100%;
+  height: 100%;
+}
+.searchtain-cnt-result{
+}
+.searchtain-cnt-result-contain{
+  width: 100%;
+  height: calc(100% - 150px);
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding-top: 10px;
+  
+}
+.searchtain-cnt-result-contain-introduction{
+  padding-left: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+
+}
+.searchtain-cnt-result-contain-introduction_title{
+   font-weight: bolder;
+}
+.searchtain-cnt-result-contain-item{
+  display: flex;
+  margin-bottom: 20px;
+}
+.searchtain-cnt-result-contain_img{
+  width: 50%;
+  height: 200px;
+}
+.searchtain-cnt-result-contain-item_time{
+  color: #9FA19F;
+  font-size: 16px;
+  font-weight: bolder;
+}

@@ -1,0 +1,18 @@
+<!--pages/item/item.wxml-->
+<view class="iteminfo">
+  <view class="iteminfo_liulan">浏览量：1000</view>
+  <cover-image src="https://www.xzmuseum.com/upload/202301/13/202301131021326965.jpg" class="iteminfo-img"></cover-image>
+  <view class="iteminfo-info">
+      <view class="iteminfo-info-title">基本信息</view>
+      <text class="iteminfo-info-baseinfo">夏代晚期（公元前18世纪-前16世纪） 
+        高19厘米，口径16.9厘米，重0.96千克, 
+        20世纪50年代自上海冶炼废铜中挑选而来
+      </text>
+  </view>
+  <view class="iteminfo-info">
+      <view class="iteminfo-info-title">藏品介绍</view>
+      <text class="iteminfo-info-baseinfo">陶亭上下两层，上层一侧拱门内上方墨书“万善堂”三字，另一侧拱门内右壁墨书竖题“香首邓爱泉等仝远”，左侧壁上墨书有“万历二十六年八月十五日立”，上方横书“吉祥如意”等字。明万历二十六年即1598年。
+      </text>
+  </view>
+
+</view>

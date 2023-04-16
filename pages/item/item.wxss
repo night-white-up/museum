@@ -1,0 +1,30 @@
+/* pages/item/item.wxss */
+.iteminfo{
+  width: 100%;
+  height: 100%;
+  background: #E7E3E0;
+}
+.iteminfo-img{
+  width: 100%;
+  height: 200px;
+}
+.iteminfo-info-title{
+  font-weight: bolder;
+  coor:#000;
+  font-size: 18px;
+}
+.iteminfo_liulan{
+  font-size: 14px;
+  padding-left: 10px;
+}
+.iteminfo-info{
+  box-sizing: border-box;
+  padding: 0 10px;
+  background: #fff;
+  margin:10px 0;
+}
+.iteminfo-info-baseinfo{
+
+}
+.iteminfo-info-baseinfo{
+}

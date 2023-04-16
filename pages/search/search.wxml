@@ -1,0 +1,22 @@
+<!--pages/search/search.wxml-->
+<view class="searchtain">
+  <view class="searchtain-cnt">
+    <mp-searchbar placeholder="请输入展品名称" bindinput="bindselectresult" focus="{{true}}"></mp-searchbar>
+    <text class="searchtain-cnt-result">搜索结果共计308条</text>
+    <view class="searchtain-cnt-result-contain">
+      <view class="searchtain-cnt-result-contain-item" wx:for="{{list}}" wx:key="index">
+        <cover-image src="{{item.img}}" class="searchtain-cnt-result-contain_img"></cover-image>
+        <view class="searchtain-cnt-result-contain-introduction">
+          <view class="searchtain-cnt-result-contain-introduction_title">{{item.title}}</view>
+          <view class="searchtain-cnt-result-contain-item_time">
+            <view>{{item.type}}</view>
+            <view>{{item.time}}</view>
+          </view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <mp-tabbar list="{{tablist}}" ext-class="navigator" bindchange="tabswitch" current="{{current}}">
+  </mp-tabbar>
+</view>

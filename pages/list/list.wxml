@@ -1,0 +1,10 @@
+<!--pages/list/list.wxml-->
+<view class="list">
+    <view class="list-item" wx:for="{{list}}" wx:key="index" bindtap="itemclick" data-item="{{item}}">
+      <cover-image src="{{item.img}}" class="list-item-img"></cover-image>
+      <text class="list-item-title">
+          <text class="list-item-title_title" title="'谷纹玉璧谷纹玉璧谷纹玉璧'">藏品名称：</text>{{item.text}}</text>
+      <text class="list-item-title"><text class="list-item-title_title">历史年代：</text>{{item.time}}</text>
+    </view>
+    
+</view>

@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+<text class="container-location">当前位置：成都</text>
+  <swiper indicator-dots="{{indicatorDots}}"  class="swipercontainer">
+    <swiper-item wx:for="{{bannerlist}}" wx:key="index">
+       <cover-image src="{{item.img}}" class="swipercontainer-item" />
+    </swiper-item>
+  </swiper >
+  <view class="container-list" style="background:  url('https://www.xzmuseum.com/templates/pc/images/dc_hicon.png') center no-repeat;background-size: 100% 100% ;">
+      <view class="container-list-item" wx:for="{{list}}"  wx:key="index"  bindtap="lifetimes" data-item="{{item}}" >
+        <view class="container-list-item-text">{{item.text}}</view>
+        <image src="{{item.img}}" class="container-list-item-img"></image>
+      </view>
+      
+  </view>
+  <mp-tabbar list="{{tablist}}"  ext-class="navigator" bindchange="tabswitch" current="{{current}}">
+  </mp-tabbar>
+</view>

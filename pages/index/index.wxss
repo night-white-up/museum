@@ -1,0 +1,70 @@
+/**index.wxss**/
+
+.navigator{
+   /* position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%; */
+   background-color: #A88462;
+   font-size: 20px;
+}
+.container-location{
+  color: #c1c1c1;
+  font-size: 14px;
+}
+.navigator .weui-tabbar__icon{
+  width: 32px;
+  height:32px;
+}
+.navigator .weui-tabbar__label{
+  color: #fff;
+  font-size: 14px;
+}
+.swipercontainer{
+  width: 100%;
+  height: 200px;
+}
+.swipercontainer-item{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+
+}
+.container-list{
+  width: 100%;
+  height:calc(100% - 150px);
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+.container-list-item{
+  width: 100%;
+   height:150px;
+   /* flex: 1; */
+   position: relative;
+ /* background:  url('../images/dc_hicon.png') 0 0  no-repeat;
+  background-size: 100%;  */
+  line-height: 100px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0,0,0.1);
+  border:1px solid #fff;
+}
+.container-list-item-text{
+    color:#A88462;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.container-list-item-img{
+    width: 50%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
